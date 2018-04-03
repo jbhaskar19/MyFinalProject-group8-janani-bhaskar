@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Mar 31, 2018 2:39:20 AM by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="ITMD_515" dynamic-insert="false" dynamic-update="false" mutable="true" name="com.service.model.CarPartsInventory" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="car_parts_inventory">
+        <id name="pid" type="string">
+            <column length="45" name="PID"/>
+            <generator class="assigned"/>
+        </id>
+        <property generated="never" lazy="false" name="dsid" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="DSID"/>
+        </property>
+        <property generated="never" lazy="false" name="name" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="name"/>
+        </property>
+        <property generated="never" lazy="false" name="model" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="model"/>
+        </property>
+        <property generated="never" lazy="false" name="make" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="make"/>
+        </property>
+        <property generated="never" lazy="false" name="year" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="year"/>
+        </property>
+        <property generated="never" lazy="false" name="quantity" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="quantity"/>
+        </property>
+        <property generated="never" lazy="false" name="price" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="price"/>
+        </property>
+        <property generated="never" lazy="false" name="status" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="status"/>
+        </property>
+        <property generated="never" lazy="false" name="type" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="type"/>
+        </property>
+        <property generated="never" lazy="false" name="category" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="category"/>
+        </property>
+        <property generated="never" lazy="false" name="ir" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="ir"/>
+        </property>
+        <property generated="never" lazy="false" name="seller" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="seller"/>
+        </property>
+    </class>
+</hibernate-mapping>

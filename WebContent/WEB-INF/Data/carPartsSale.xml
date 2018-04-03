@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycarservice>
+	<partsale>
+		<V_P_ID>p001</V_P_ID>
+		<C_ID>C001</C_ID>
+		<D_S_ID>DS001</D_S_ID>
+		<price>40</price>
+		<date_purchased>2-3-2018</date_purchased>
+		<quantity>1</quantity>
+		<type>0</type>
+		<status>0</status>
+	</partsale>
+</mycarservice>

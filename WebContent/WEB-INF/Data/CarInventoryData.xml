@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycarservice>
+	<car>
+		<vin_number>WBAFZ9C55DC792157</vin_number>
+		<make>honda</make>
+		<model>crv</model>
+		<year>2018</year>
+		<price>40000</price>
+		<colour>red</colour>
+		<status>0</status>
+		<DS_ID>DS001</DS_ID>
+	</car>
+		<car>
+		<vin_number>4V5KC9UE93N396088</vin_number>
+		<make>BMW</make>
+		<model>X6</model>
+		<year>2017</year>
+		<price>45000</price>
+		<colour>blue</colour>
+		<status>0</status>
+		<DS_ID>DS002</DS_ID>
+	</car>
+</mycarservice>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mycarservice>
+	<customer>
+		<firstname>neela</firstname>
+		<lastname>arumugam</lastname>
+		<phone>9717245917</phone>
+		<addres>kings landing</addres>
+		<email>clannister@qw.iit.edu</email>
+		<city>westeros</city>
+		<zip>12345</zip>
+		<state>IL</state>
+		<country>USA</country>
+		<username>arumugam</username>
+		<password>neela</password>
+	</customer>
+</mycarservice>

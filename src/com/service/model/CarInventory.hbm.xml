@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Mar 31, 2018 2:39:20 AM by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="ITMD_515" dynamic-insert="false" dynamic-update="false" mutable="true" name="com.service.model.CarInventory" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="car_inventory">
+        <id name="vid" type="string">
+            <column length="45" name="VID"/>
+            <generator class="assigned"/>
+        </id>
+        <property generated="never" lazy="false" name="dsId" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="DS_ID"/>
+        </property>
+        <property generated="never" lazy="false" name="vinNumber" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="vin_number" not-null="true" unique="true"/>
+        </property>
+        <property generated="never" lazy="false" name="make" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="make"/>
+        </property>
+        <property generated="never" lazy="false" name="model" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="model"/>
+        </property>
+        <property generated="never" lazy="false" name="year" optimistic-lock="true" type="java.lang.Integer" unique="false">
+            <column name="year"/>
+        </property>
+        <property generated="never" lazy="false" name="price" optimistic-lock="true" type="java.lang.Long" unique="false">
+            <column name="price"/>
+        </property>
+        <property generated="never" lazy="false" name="exterior" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="exterior"/>
+        </property>
+        <property generated="never" lazy="false" name="status" optimistic-lock="true" type="java.lang.Integer" unique="false">
+            <column name="status"/>
+        </property>
+        <property generated="never" lazy="false" name="ir" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="ir"/>
+        </property>
+        <property generated="never" lazy="false" name="interior" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="interior"/>
+        </property>
+        <property generated="never" lazy="false" name="engine" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="engine"/>
+        </property>
+        <property generated="never" lazy="false" name="transmission" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="transmission"/>
+        </property>
+        <property generated="never" lazy="false" name="citymilage" optimistic-lock="true" type="java.lang.Integer" unique="false">
+            <column name="citymilage"/>
+        </property>
+        <property generated="never" lazy="false" name="hwymilage" optimistic-lock="true" type="java.lang.Integer" unique="false">
+            <column name="hwymilage"/>
+        </property>
+        <property generated="never" lazy="false" name="discount" optimistic-lock="true" type="java.lang.Double" unique="false">
+            <column name="discount" precision="22" scale="0"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Mar 31, 2018 2:39:20 AM by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="ITMD_515" dynamic-insert="false" dynamic-update="false" mutable="true" name="com.service.model.Dealership" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="dealership">
+        <id name="dsid" type="string">
+            <column length="45" name="DSID"/>
+            <generator class="assigned"/>
+        </id>
+        <property generated="never" lazy="false" name="did" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="DID"/>
+        </property>
+        <property generated="never" lazy="false" name="name" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="name"/>
+        </property>
+        <property generated="never" lazy="false" name="phone" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="phone"/>
+        </property>
+        <property generated="never" lazy="false" name="address" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="address"/>
+        </property>
+        <property generated="never" lazy="false" name="city" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="city"/>
+        </property>
+        <property generated="never" lazy="false" name="zip" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="zip"/>
+        </property>
+        <property generated="never" lazy="false" name="state" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="state"/>
+        </property>
+        <property generated="never" lazy="false" name="country" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="country"/>
+        </property>
+    </class>
+</hibernate-mapping>

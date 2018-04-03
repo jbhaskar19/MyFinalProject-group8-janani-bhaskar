@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycarservice>
+	<dealer>
+		<adminID>A002</adminID>
+		<firstname>Cheziyan</firstname>
+		<lastname>AVM</lastname>
+		<phone>9717245917</phone>
+		<addres>302 NE 70th avenue</addres>
+		<email>boopathy@hawk.iit.edu</email>
+		<city>Hillsboro</city>
+		<zip>97006</zip>
+		<state>OR</state>
+		<country>USA</country>
+		<username>qwerdfaa</username>
+		<password>sfrf</password>
+	</dealer>
+</mycarservice>

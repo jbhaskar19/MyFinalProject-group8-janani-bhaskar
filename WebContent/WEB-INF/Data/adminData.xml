@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycarservice>
+   <admin>
+	<firstname>janani</firstname>
+	<lastname>Bhaskar</lastname>
+	<phone>9717245917</phone>
+	<addres>302 NE 70th avenue</addres>
+	<email>jbhaskar@hawk.iit.edu</email>
+	<city>Hillsboro</city>
+	<zip>97006</zip>
+	<state>OR</state>
+	<country>USA</country>
+	<username>jbhaskar</username>
+	<password>qaz</password>
+   </admin>
+   <admin>
+	<firstname>Manoj</firstname>
+	<lastname>Boopathy</lastname>
+	<phone>9719987393</phone>
+	<addres>302 NE 70th avenue</addres>
+	<email>manojB@hawk.iit.edu</email>
+	<city>Hillsboro</city>
+	<zip>97006</zip>
+	<state>OR</state>
+	<country>USA</country>
+	<username>manoj</username>
+	<password>123</password>
+   </admin>
+</mycarservice>

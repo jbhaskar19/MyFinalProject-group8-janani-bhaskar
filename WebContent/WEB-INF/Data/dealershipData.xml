@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycarservice>
+	<dealership>
+		<dealerID>D001</dealerID>
+		<dealershipname>JanaiAutomobiles</dealershipname>
+		<phone>9717245917</phone>
+		<addres>302 NE 70th avenue</addres>
+		<email>bauto@hawk.iit.edu</email>
+		<city>Hillsboro</city>
+		<zip>97006</zip>
+		<state>OR</state>
+		<country>USA</country>
+	</dealership>
+	<dealership>
+		<dealerID>D002</dealerID>
+		<dealershipname>SakhtiAutomoiles</dealershipname>
+		<phone>9445224625</phone>
+		<addres>old no 16 new no 6 B block </addres>
+		<email>bauto@hawk.iit.edu</email>
+		<city>Chennai</city>
+		<zip>99112</zip>
+		<state>OR</state>
+		<country>USA</country>
+	</dealership>
+</mycarservice>

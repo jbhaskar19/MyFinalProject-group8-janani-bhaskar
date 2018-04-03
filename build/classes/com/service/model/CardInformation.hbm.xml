@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Mar 31, 2018 2:39:20 AM by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="ITMD_515" dynamic-insert="false" dynamic-update="false" mutable="true" name="com.service.model.CardInformation" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="cardInformation">
+        <id name="creditcardnumber" type="string">
+            <column length="45" name="creditcardnumber"/>
+            <generator class="assigned"/>
+        </id>
+        <property generated="never" lazy="false" name="nameoncard" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="nameoncard"/>
+        </property>
+        <property generated="never" lazy="false" name="monthExp" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="`month exp`"/>
+        </property>
+        <property generated="never" lazy="false" name="yearExp" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="`year exp`"/>
+        </property>
+        <property generated="never" lazy="false" name="ccv" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="ccv" unique="true"/>
+        </property>
+    </class>
+</hibernate-mapping>
